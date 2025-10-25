@@ -1,4 +1,4 @@
-export const env = Object.freeze({
+export default Object.freeze({
     mode: process.env.MODE ?? 'dev',
     port: process.env.PORT ?? '3000',
     mongoUri: process.env.MONGO_URI ?? 'mongodb://localhost:27017/ecommerce',
