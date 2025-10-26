@@ -3,9 +3,9 @@ import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import getApp from './lib/getApp';
 import envConfig from './config/env';
-import ajaxRouter from './routes/ajax';
-import apiRouter from './routes/api';
-import webRouter from './routes/web';
+import ajaxRouter from './app/ajax/routes';
+import apiRouter from './app/api/routes';
+import webRouter from './app/web/routes';
 import path from "path";
 
 dotenv.config();
